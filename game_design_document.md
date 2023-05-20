@@ -32,6 +32,8 @@ The Fascetti family live in the keep of the inner city. Wealthier, more influent
 - The Little Whispers Orphanage: A large building on the outskirts of the slums. It stands two storeys high and has a slight lean as it seems to strain under its own weight. The smell of herbs emanates from the extensive herb gardens to the surrounds. The orphanage was established by the Sezuri family decades ago, Francis Sezuri continues the tradition today as the primary benefactor. The elderly who can no longer serve look after the children and during harvest times they all help in the fields.
 - Playful Pussy Cat House: The oldest trade in town. The playful pussy provides a somewhat safe location for the women of the night to ply their trade. One of the few locations in the old town that the upper town folk care to frequent.
 - The Harbour: A large bronze bell hangs over the docks of the harbour. A ready signal for any marauding orc parties. The smell of fish permeates the air. Large stalls of fish and other unidentifiable sea bounty sits upon tables with tents above. Large air drying racks bend under the strain of the salted fish it holds.
+- The Church of Estel: The Church of Estel is a large, stone building with a towering steeple. It is one of the oldest buildings in the city, with weathered stone walls and stained glass windows that cast colorful patterns on the floor. Inside, the church is quiet and serene, with rows of wooden pews and a large altar at the front. Despite the harsh conditions outside, the church remains a place of peace and solace for the people of Estel.
+
 
 ## Characters
 
@@ -74,6 +76,22 @@ Carg is the harbour master and organises the offloading and loading of the fleet
 ### Sergeant Sodgaf Dask
 
 Sodgaf Dask serves as the Sergeant of Estel. "Old sod" to the men and women of the wall.
+
+### Maelis the Baker
+A rotund man with a jolly demeanor, Maelis runs the local bakery. His hands are always dusted with flour, and he has a twinkle in his eye. He lost his family to a plague years ago and has since dedicated his life to bringing joy to others through his delicious pastries.
+
+### Eldra the Seamstress
+Eldra is a slender woman with nimble fingers. She has a sharp eye for detail and is known for her exquisite embroidery. She is a widow and has a mysterious past that she doesn't talk about.
+
+### Gorrim the Blacksmith
+Gorrim is a burly half-orc with a gruff exterior but a heart of gold. He is a master of his craft, forging the finest weapons and armor in Estel. He has a deep scar across his face from a past battle.
+
+### Thalia the Herbalist
+Thalia is a middle-aged woman with a gentle soul. She has a deep knowledge of herbs and their medicinal properties. She lives alone on the outskirts of the city and is often sought out for her healing skills.
+
+### Father Eamon
+Father Eamon is the resident cleric of the Church of Estel. He is a man of advanced years, with a gentle demeanor and a calming presence. He provides spiritual guidance to the people of Estel and is always ready to lend a listening ear or a comforting word.
+
 
 ## Mechanics
 
