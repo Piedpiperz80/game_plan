@@ -2,9 +2,13 @@
 
 ## Game World
 
+### Erda
+
+Erda is a world lost to time, where nightmares stalk the shadows and leviathan lurk the depths. Magic permeates all, breathing life to the living and undying alike. The light of civilization perilously flickers as the forces of chaos rage around it. Humans, elves and half-orcs form uneasy alliances, struggling together for survival against the inevitable end. The dwarves fall far from memory long since fleeing to the mountain strongholds of old. The gods seem to have abandoned the world to the ever-growing forces of darkness. Yet there is hope. In the ruins of ancient civilizations, the last of the great magicians still cling to life. In the frozen north, the last of the dwarves still hold their ancestral strongholds. And in the dark places of the world, the last of the heroes still stand against the tide of darkness. It is a time of heroes. A time of magic. A time of legend.
+
 ### Estel
 
-Estel is the last known bastion of civilization, holding fast against the forces that threaten it. The city is nestled in the mountains, with stone walls carved into and out of the mountains themselves. The cobblestone roads are perennially covered in cold sea spray, and the salt of the ocean is thick in the air. The sound of breaking waves is constant, as ever-present as the threats outside the walls.
+Estel is the last known bastion of civilization in Erda, holding fast against the forces that threaten it. The city is nestled in the mountains, with stone walls carved into and out of the mountains themselves. The cobblestone roads are perennially covered in cold sea spray, and the salt of the ocean is thick in the air. The sound of breaking waves is constant, as ever-present as the threats outside the walls.
 
 The mountains offer natural protection to the South East, while the sea surrounds the city's Northern and Western borders. A nearly ruined bridge crossing offers a choke point to the main walled entrance over the river to its East. A great drawbridge denies all passage into and out of the city.
 
@@ -24,31 +28,28 @@ The Fascetti family live in the keep of the inner city. Wealthier, more influent
 - Temple to Palor: A cleric offers his services at this temple.
 - The Harbour: The harbour sells the bounty of the sea and is run by the harbour master.
 - The Last Quarter Tavern: This tavern is just at the outskirts of the inner city.
-- The Slum Districts: The slum districts are where Fascetti has ordered the half-orc population to be segregated.
+- The Slum Districts: The slumdistricts are where the Baron has ordered the half-orc population to be segregated.
 - The Little Whispers Orphanage: A large building on the outskirts of the slums. It stands two storeys high and has a slight lean as it seems to strain under its own weight. The smell of herbs emanates from the extensive herb gardens to the surrounds. The orphanage was established by the Sezuri family decades ago, Francis Sezuri continues the tradition today as the primary benefactor. The elderly who can no longer serve look after the children and during harvest times they all help in the fields.
 - Playful Pussy Cat House: The oldest trade in town. The playful pussy provides a somewhat safe location for the women of the night to ply their trade. One of the few locations in the old town that the upper town folk care to frequent.
+- The Harbour: A large bronze bell hangs over the docks of the harbour. A ready signal for any marauding orc parties. The smell of fish permeates the air. Large stalls of fish and other unidentifiable sea bounty sits upon tables with tents above. Large air drying racks bend under the strain of the salted fish it holds.
 
 ## Characters
 
 ### Bartholomeus
 
-Once the captain of a fishing vessel in the fleet, Bartholomeus is now the tavern owner and keeper at The Last Quarter Tavern.
+Bartholomeus was once the captain of a fishing vessel in the fleet. Now he is the tavern owner and keep at The Last Quarter Tavern.
 
-### Grimobak (Grim)
+### Grimobak
 
-Grim is the muscle at The Last Quarter Tavern. He works for Bartholomeus and is involved with street gangs in the slums. He has been involved in a plot to kidnap Ninihrah in an effort to produce healthy children.
-
-### Corbin Soldelle
-
-A man from the militia who mans the walls. Corbin is actually a vampire who feeds upon the children and babies of the slums.
+Grimobak, or Grim to everyone else, is the muscle at The Last Quarter Tavern in Estel. He works for Bartholomeus.
 
 ### Ninihrah
 
-The wayward daughter of the Baron Franklin Fascetti and barmaid at the Last Quarter. She was last seen leaving the Last Quarter tavern after her shift ended.
+Ninihrah is the wayward daughter of the Baron Franklin Fascetti and barmaid at the Last Quarter.
 
 ### Tiberius
 
-Tiberius is a cat that can often be found at the feet of Grimobak in TheLast Quarter Tavern. He was a young wizard who was studying the true polymorph spell and has become a cat permanently.
+Tiberius is the cat that can often be found at the feet of Grimobak in The Last Quarter Tavern. He was a young wizard who was studying the true polymorph spell and has become a cat permanently.
 
 ### Baron Franklin Fascetti
 
@@ -100,8 +101,9 @@ Sodgaf Dask serves as the Sergeant of Estel. "Old sod" to the men and women of t
 
 ## The Last Quarter Tavern
 
-The Last Quarter Tavern lies deep in the heart of Estel. Known as the No Quarter Tavern to the patrons, it is one of the few places where the people can go to forget the world and sink into oblivion.
+The Last Quarter Tavern lies deep in the heart ofEstel. Known as the No Quarter Tavern to the patrons, it is one of the few places where the people can go to forget the world and sink into oblivion.
 
 ## Hadleigh
 
 A small fishing village, expected to have fallen into chaos long ago. Home town of the vampire Corbin.
+
