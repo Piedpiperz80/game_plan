@@ -28,7 +28,39 @@ The Fascetti family live in the keep of the inner city. Wealthier, more influent
 
 ## Characters
 
-(TBD)
+### Bartholomeus
+Once the captain of a fishing vessel in the fleet, Bartholomeus is now the tavern owner and keeper at The Last Quarter Tavern.
+
+### Grimobak (Grim)
+Grim is the muscle at The Last Quarter Tavern. He works for Bartholomeus and is involved with street gangs in the slums. He has been involved in a plot to kidnap Ninihrah in an effort to produce healthy children.
+
+### Corbin Soldelle
+A man from the militia who mans the walls. Corbin is actually a vampire who feeds upon the children and babies of the slums.
+
+### Ninihrah
+The wayward daughter of the Baron Franklin Fascetti and barmaid at the Last Quarter. She was last seen leaving the Last Quarter tavern after her shift ended.
+
+### Tiberius
+Tiberius is a cat that can often be found at the feet of Grimobak in The Last Quarter Tavern. He was a young wizard who was studying the true polymorph spell and has become a cat permanently.
+
+### Baron Franklin Fascetti
+The Baron of Estel, a greedy man who values wealth and power above all else. He had his wife murdered after finding out that she had an affair that resulted in the birth of Ninihrah.
+
+### Sheriff Em Shuzig
+Em is the Sheriff of Baron Fascetti. A very unpopular figure, responsible for collecting taxes and keeping the peace. The Sheriff is skimming the taxes and has a thug squad.
+
+### Fleet Master Palbo Senzuri
+Palbo serves as the Fleet Master of Estel. He is in a plot with the Half-Orcs and Orcs of the sea to overthrow Baron Fascetti.
+
+### Francis Senzuri
+Older sister of Franklin Fascetti. Married to the Fleet Master Palbo Senzuri. She runs the Little Whispers Orphanage.
+
+### Harbour Master Carg Kam
+Carg is the harbour master and organises the offloading and loading of the fleet. He works for the Fleet Master Palbo Senzuri.
+
+### Sergeant Sodgaf Dask
+Sodgaf Dask serves as the Sergeant of Estel. "Old sod" to the men and women of the wall.
+
 
 ## Mechanics
 
