@@ -117,6 +117,19 @@ Father Eamon is the resident cleric of the Church of Estel. He is a man of advan
 3) Under the control of the sheriff is the Merchant Council
 4) Under the control of the sheriff and merchant council Smith, Bartholomeus, Cleric, Harbour Master, Herders
 
+## Opening Sequence
+
+1. **Opening Scene:** The game opens with the player character just outside the city of Estel. Suddenly, they are ambushed by a group of enemies. This could be a scripted event that happens regardless of the player's actions.
+
+2. **Combat Tutorial:** The player is thrown into combat with the enemies. This serves as a tutorial for the combat system. You can guide the player through the combat mechanics, showing them how to attack, defend, and use any special abilities.
+
+3. **Outcome:** Regardless of the outcome of the fight, the player character is left injured and exhausted. If they win the fight, they could be injured in a final surprise attack. If they lose, they are left for dead by the enemies.
+
+4. **Rescue:** At this point, the hunter character from your documents finds the player. They help the player, taking them to a safe place to recover. This introduces the player to the conversation system, as they can talk to the hunter and learn more about the world.
+
+5. **Next Steps:** After recovering, the player can start exploring the world, interacting with other characters, and following the main storyline.
+
+
 ## The Last Quarter Tavern
 
 The Last Quarter Tavern lies deep in the heart ofEstel. Known as the No Quarter Tavern to the patrons, it is one of the few places where the people can go to forget the world and sink into oblivion.
