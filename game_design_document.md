@@ -1,8 +1,6 @@
 # Game Design Document for Text-Based Adventure Game
 
-## Game World
-
-### Erda
+### Game World - Erda
 
 Erda is a world lost to time, where nightmares stalk the shadows and leviathan lurk the depths. Magic permeates all, breathing life to the living and undying alike. The light of civilization perilously flickers as the forces of chaos rage around it. Humans, elves and half-orcs form uneasy alliances, struggling together for survival against the inevitable end. The dwarves fall far from memory long since fleeing to the mountain strongholds of old. The gods seem to have abandoned the world to the ever-growing forces of darkness. Yet there is hope. In the ruins of ancient civilizations, the last of the great magicians still cling to life. In the frozen north, the last of the dwarves still hold their ancestral strongholds. And in the dark places of the world, the last of the heroes still stand against the tide of darkness. It is a time of heroes. A time of magic. A time of legend.
 
@@ -147,12 +145,6 @@ The Last Quarter Tavern lies deep in the heart ofEstel. Known as the No Quarter 
 ## Hadleigh
 
 A small fishing village, expected to have fallen into chaos long ago. Home town of the vampire Corbin.
-
-# Game Design Document for Text-Based Adventure Game
-
-## Game World
-
-The game world is Erda, a world lost to time, where nightmares stalk the shadows and leviathans lurk the depths. The city of Estel is the last known bastion of civilization in Erda. The city is comprised predominantly of Human, Elf, and Half-Elves, with Halfling and Half-Orc citizens making up the minority. The Baron Franklin Fascetti rules Estel.
 
 ## Opening Sequence
 
