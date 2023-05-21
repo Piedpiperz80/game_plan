@@ -129,7 +129,6 @@ Father Eamon is the resident cleric of the Church of Estel. He is a man of advan
 
 5. **Next Steps:** After recovering, the player can start exploring the world, interacting with other characters, and following the main storyline.
 
-
 ## The Last Quarter Tavern
 
 The Last Quarter Tavern lies deep in the heart ofEstel. Known as the No Quarter Tavern to the patrons, it is one of the few places where the people can go to forget the world and sink into oblivion.
@@ -138,3 +137,58 @@ The Last Quarter Tavern lies deep in the heart ofEstel. Known as the No Quarter 
 
 A small fishing village, expected to have fallen into chaos long ago. Home town of the vampire Corbin.
 
+# Game Design Document for Text-Based Adventure Game
+
+## Game World
+
+The game world is Erda, a world lost to time, where nightmares stalk the shadows and leviathans lurk the depths. The city of Estel is the last known bastion of civilization in Erda. The city is comprised predominantly of Human, Elf, and Half-Elves, with Halfling and Half-Orc citizens making up the minority. The Baron Franklin Fascetti rules Estel.
+
+## Opening Sequence
+
+1. **Opening Scene:** The game opens with the player character just outside the city of Estel. Suddenly, they are ambushed by a group of enemies. This could be a scripted event that happens regardless of the player's actions.
+
+2. **Combat Tutorial:** The player is thrown into combat with the enemies. This serves as a tutorial for the combat system. You can guide the player through the combat mechanics, showing them how to attack, defend, and use any special abilities.
+
+3. **Outcome:** Regardless of the outcome of the fight, the player character is left injured and exhausted. If they win the fight, they could be injured in a final surprise attack. If they lose, they are left for dead by the enemies.
+
+4. **Rescue:** At this point, the hunter character from your documents finds the player. They help the player, taking them to a safe place to recover. This introduces the player to the conversation system, as they can talk to the hunter and learn more about the world.
+
+5. **Next Steps:** After recovering, the player can start exploring the world, interacting with other characters, and following the main storyline.
+
+## Calendar of Erda
+
+The year in Erda is divided into four seasons:
+
+1. **Frostwake (Winter):** This season is associated with death and endings. It's a time of cold and darkness, when the world is at its most harsh and unforgiving. Frostwake lasts for 90 days.
+
+2. **Bloomrise (Spring):** This season is associated with rebirth and new beginnings. It's a time when the world starts to thaw and life begins to return. Bloomrise lasts for 92 days.
+
+3. **Suncrest (Summer):** This season is associated with life and vitality. It's a time of warmth and light, when the world is at its most vibrant and full of energy. Suncrest lasts for 94 days.
+
+4. **Harvestmoon (Autumn):** This season is associated with change and transformation. It's a time when the world starts to cool and prepare for the coming winter. Harvestmoon lasts for 89 days.
+
+Each season is divided into three months, each lasting for 30 or 31 days, with an extra day added to Bloomrise to account for the 0.25 days in a year. This extra day can be a special day of celebration or ritual in the game world.
+
+## Pantheon of Erda
+
+1. **Mortis, the God of Death and the Afterlife:** Mortis is the guide of souls to the afterlife. He is often depicted as a skeletal figure holding a scythe.
+   - **Mortday (Monday):** Named after Mortis.
+
+2. **Ardos, the God of War and Courage:** Ardos is revered by warriors and soldiers. He is often depicted as a muscular figure clad in armor, wielding a sword.
+   - **Ardosday (Tuesday):** Named after Ardos.
+
+3. **Elyndra, the Goddess of Love and Beauty:** Elyndra is the patron of lovers, artists, and all who appreciate beauty```markdown
+. She is often depicted as a stunningly beautiful woman surrounded by flowers.
+   - **Elynday (Wednesday):** Named after Elyndra.
+
+4. **Thundor, the God of Storms and Sea:** Thundor is the lord of the sea and the bringer of storms. Sailors and fishermen often pray to him for safe journeys.
+   - **Thunday (Thursday):** Named after Thundor.
+
+5. **Veridia, the Goddess of Nature and Harvest:** Veridia is the protector of the natural world and the patron of farmers. She is often depicted as a woman with flowers in her hair, holding a sheaf of wheat.
+   - **Veriday (Friday):** Named after Veridia.
+
+6. **Selenea, the Goddess of the Moon and Dreams:** Selenea is the ruler of the night and the patron of dreamers. She is often depicted as a serene woman holding a crescent moon.
+   - **Seleneaday (Saturday):** Named after Selenea.
+
+7. **Solara, the Goddess of the Sun and Light:** Solara is the bringer of light and the guardian against darkness. She is often depicted as a radiant woman holding a sun disc.
+   - **Solaraday (Sunday):** Named after Solara.
