@@ -93,13 +93,24 @@ Thalia is a middle-aged woman with a gentle soul. She has a deep knowledge of he
 Father Eamon is the resident cleric of the Church of Estel. He is a man of advanced years, with a gentle demeanor and a calming presence. He provides spiritual guidance to the people of Estel and is always ready to lend a listening ear or a comforting word.
 
 
-## Mechanics
-
-(TBD)
-
 ## Story
 
-(TBD)
+The player character starts their journey just outside the city of Estel. They are ambushed by a group of enemies and left injured, regardless of the outcome of the fight. The hunter character, a  figure in the game, finds the player and helps them recover. This event sets the stage for the player's journey into the city of Estel and the world of Erda.
+
+The player will interact with various characters, uncover the lore of the world, and make choices that will affect the outcome of the story. The player's backstory will be revealed gradually throughout the game, adding depth to their character and motivation for their actions.
+
+## Mechanics
+
+**Combat System:** The game will feature a 2-d graphic combat system. The player will control two icons at the same time. One will be an icon that is trying not to be hit by the enemy the other is an icon that they are trying to hit the enemy with. One will be controlled with WASD and Left Shift, the other will be controlled with LP;' and right shift. The shift key will be used to speed the icon up but will use and deplete stamina. How hard you hit and move etc. will be governed by skills and abilities. Armour will also play a factor. The size of the icon could be determined by your agility for example or what part of the body you are trying to hit.
+
+**Conversation System:** The game will feature dynamic conversations with NPCs, powered by the ChatGPT AI. The player will be able to ask questions, respond to NPC dialogue, and make choices that can affect the story and their relationships with the characters.
+
+**Time System:** The game will feature a time system that allows for pausing, real-time passing, and speeding up of time. The game world will have a unique calendar system that fits the lore of the world.
+
+**Save and Load System:** The game will feature a save and load system. Players will be able to save their progress at certain points in the game, allowing them to return to their game at a later time. The player will only be able to save at the city or later in camp adding a layer of risk reward.
+
+**Character Creation:** The game will feature a character creation system. Players will be able to customize their character's appearance, choose their abilities, they will not be able to define their backstory as this will be the main part of the game. As the player progresses they will reveal parts of their backstory until it is fully revealed who they once were.
+
 
 ## Coinage
 
