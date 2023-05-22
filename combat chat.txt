@@ -1,0 +1,291 @@
+Summary
+In this conversation, we discussed how to modify a set of Unity scripts to implement a stamina system for a player character. The player character has two modes of operation, attack and defend, each controlled by a separate script. The goal was to modify these scripts so that certain actions, such as boosting, would consume stamina.
+
+The initial versions of the scripts had separate stamina values for the attack and defend modes. The first step was to consolidate these into a single stamina value in the Player script. This required modifying the PlayerAttackController and PlayerDefendController scripts to reference the Player's stamina instead of their own separate values.
+
+Next, we discussed how to implement stamina regeneration. The idea was to have the player's stamina regenerate slowly over time, but faster when the player is standing still. This was implemented by adding a check in the Update method of the PlayerAttackController script to see if the player was moving, and adjust the rate of stamina regeneration accordingly.
+
+We also discussed how to prevent the player's stamina from exceeding its maximum value. This was done by using the Mathf.Min function to limit the player's stamina to the maximum value defined in the Player script.
+
+Finally, we discussed some potential future enhancements to the system, such as adding a stamina system for the enemy characters, improving the enemy defend behavior, and adding a visual representation of the player's stamina.
+
+Here are the final versions of the scripts:
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Player : MonoBehaviour
+{
+    // Abilities
+    public float Agility;
+    public float Constitution;
+    public float Stamina;
+    public float Strength;
+    public float Charisma;
+    public float Creativity;
+    public float Intelligence;
+    public float Perception;
+    public float Willpower;
+
+    // Current stamina
+    public float CurrentStamina;
+
+    // Skills
+    public float Lockpicking; // Primary: Agility, Secondary: Intelligence, Perception
+    public float Speed; // Primary: Agility, Secondary: Stamina, Constitution
+
+    // Skill Caps
+    public float LockpickingCap;
+    public float SpeedCap;
+
+    void Start()
+    {
+        // Initialize abilities
+        Agility = 50;
+        Constitution = 50;
+        Stamina = 50;
+        Strength = 50;
+        Charisma = 50;
+        Creativity = 50;
+        Intelligence = 50;
+        Perception = 50;
+        Willpower = 50;
+
+        // Initialize skills
+        Lockpicking = 0;
+        Speed = 0;
+    }
+
+    void Update()
+    {
+        // Update skill caps based on abilities
+        LockpickingCap = 0.5f * Agility + 0.25f * (Intelligence + Perception);
+        SpeedCap = 0.5f * (Agility + Strength);
+
+        // Ensure skills do not exceed their caps
+        Lockpicking = Mathf.Min(Lockpicking, LockpickingCap);
+        Speed = Mathf.Min(Speed, SpeedCap);
+    }
+}
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class EnemyAttackController : MonoBehaviour
+{
+    public Transform DefendCircle; // The player's defend circle transform
+    public float force = 0.1f; // The force applied to the enemy
+    public float boostForce = 0.3f; // The force applied to the enemy when boosting
+    public float boostDistance = 0.5f; // The distance at which the enemy starts to boost
+
+    private Rigidbody2D rb;
+
+    void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
+
+    void Update()
+    {
+        // Calculate the direction towards the player
+        Vector2 direction = (DefendCircle.position - transform.position).normalized;
+
+        // Calculate the distance to the defend circle
+        float distance = Vector2.Distance(transform.position, DefendCircle.position);
+
+        // If the enemy is close to the player, boost
+        if (distance < boostDistance)
+        {
+            rb.AddForce(direction * boostForce);
+        }
+        else
+        {
+            rb.AddForce(direction * force);
+        }
+
+        // Limit position
+        Vector3 position = transform.position;
+        float screenWidth = Camera.main.aspect * Camera.main.orthographicSize;
+        float screenHeight = Camera.main.orthographicSize;
+        position.x = Mathf.Clamp(position.x, -screenWidth, screenWidth);
+        position.y = Mathf.Clamp(position.y, -screenHeight, screenHeight);
+        transform.position = position;
+    }
+}
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class EnemyDefendController : MonoBehaviour
+{
+    public Transform AttackCircle; // The player's attack circle transform
+    public float force = 0.1f; // The force applied to the enemy
+    public float boostForce = 0.3f; // The force applied to the enemy when boosting
+    public float boostDistance = 0.5f; // The distance at which the enemy starts to boost
+    public float wallAvoidanceDistance = 1.0f; // The distance at which the enemy starts to avoid the walls
+
+    private Rigidbody2D rb;
+
+    void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
+
+    void Update()
+    {
+        // Calculate the direction away from the defend circle
+        Vector2 direction = (transform.position - AttackCircle.position).normalized;
+
+        // Calculate the distance to the player
+        float distance = Vector2.Distance(transform.position, AttackCircle.position);
+
+        // If the enemy is close to the player, boost
+        if (distance < boostDistance)
+        {
+            rb.AddForce(direction * boostForce);
+        }
+        else
+        {
+            rb.AddForce(direction * force);
+        }
+
+        // Limit position
+        Vector3 position = transform.position;
+        float screenWidth = Camera.main.aspect * Camera.main.orthographicSize;
+        float screenHeight = Camera.main.orthographicSize;
+        position.x = Mathf.Clamp(position.x, -screenWidth, screenWidth);
+        position.y = Mathf.Clamp(position.y, -screenHeight, screenHeight);
+        transform.position = position;
+
+        // Avoid walls
+        if (Mathf.Abs(position.x) > screenWidth - wallAvoidanceDistance)
+        {
+            float wallAvoidanceForce = (screenWidth - Mathf.Abs(position.x)) / wallAvoidanceDistance;
+            rb.AddForce(new Vector2(-Mathf.Sign(position.x) * wallAvoidanceForce, 0));
+        }
+        if (Mathf.Abs(position.y) > screenHeight - wallAvoidanceDistance)
+        {
+            float wallAvoidanceForce = (screenHeight - Mathf.Abs(position.y)) / wallAvoidanceDistance;
+            rb.AddForce(new Vector2(0, -Mathf.Sign(position.y) * wallAvoidanceForce));
+        }
+    }
+}
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class PlayerDefendController : MonoBehaviour
+{
+    public float speed = 0.1f;
+    public float boostSpeed = 0.3f;
+    public float boostCost = 10f; // The stamina cost of boosting
+    public Player player;
+
+
+    private Rigidbody2D rb;
+
+    void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+        player.CurrentStamina = player.Stamina; // Set current stamina to max stamina
+    }
+
+    void Update()
+    {
+        float moveHorizontal = Input.GetKey(KeyCode.A) ? -1 : Input.GetKey(KeyCode.D) ? 1 : 0;
+        float moveVertical = Input.GetKey(KeyCode.W) ? 1 : Input.GetKey(KeyCode.S) ? -1 : 0;
+
+        Vector2 movement = new Vector2(moveHorizontal, moveVertical);
+
+        // If the player is holding boost key and has enough stamina, boost
+        if (Input.GetKey(KeyCode.LeftShift) && player.CurrentStamina > 0)
+        {
+            rb.AddForce(movement * boostSpeed);
+            player.CurrentStamina -= boostCost * Time.deltaTime; // Decrease stamina
+        }
+        else
+        {
+            rb.AddForce(movement * speed);
+        }
+
+        // Regenerate stamina
+        if (moveHorizontal == 0 && moveVertical == 0) // If the player is standing still
+        {
+            player.CurrentStamina = Mathf.Min(player.CurrentStamina + Time.deltaTime * 0.5f, player.Stamina); // Regenerate stamina faster
+        }
+        else
+        {
+            player.CurrentStamina = Mathf.Min(player.CurrentStamina + Time.deltaTime * 0.1f, player.Stamina); // Normal stamina regeneration
+        }
+
+        // Limit position
+        Vector3 position = transform.position;
+        float screenWidth = Camera.main.aspect * Camera.main.orthographicSize;
+        float screenHeight = Camera.main.orthographicSize;
+        position.x = Mathf.Clamp(position.x, -screenWidth, screenWidth);
+        position.y = Mathf.Clamp(position.y, -screenHeight, screenHeight);
+        transform.position = position;
+    }
+}
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class PlayerAttackController : MonoBehaviour
+{
+    public float speed = 0.1f;
+    public float boostSpeed = 0.3f;
+    public float boostCost = 10f; // The stamina cost of boosting
+    public Player player;
+
+
+    private Rigidbody2D rb;
+
+    void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+        player.CurrentStamina = player.Stamina; // Set current stamina to max stamina
+    }
+
+    void Update()
+    {
+        float moveHorizontal = Input.GetKey(KeyCode.Quote) ? 1 : Input.GetKey(KeyCode.L) ? -1 : 0;
+        float moveVertical = Input.GetKey(KeyCode.P) ? 1 : Input.GetKey(KeyCode.Semicolon) ? -1 : 0;
+
+        Vector2 movement = new Vector2(moveHorizontal, moveVertical);
+
+        // If the player is holding boost key and has enough stamina, boost
+        if (Input.GetKey(KeyCode.RightShift) && player.CurrentStamina > 0)
+        {
+            rb.AddForce(movement * boostSpeed);
+            player.CurrentStamina -= boostCost * Time.deltaTime; // Decrease stamina
+        }
+        else
+        {
+            rb.AddForce(movement * speed);
+        }
+
+        // Regenerate stamina
+        if (moveHorizontal == 0 && moveVertical == 0) // If the player is standing still
+        {
+            player.CurrentStamina = Mathf.Min(player.CurrentStamina + Time.deltaTime * 0.5f, player.Stamina); // Regenerate stamina faster
+        }
+        else
+        {
+            player.CurrentStamina = Mathf.Min(player.CurrentStamina + Time.deltaTime * 0.1f, player.Stamina); // Normal stamina regeneration
+        }
+
+        // Limit position
+        Vector3 position = transform.position;
+        float screenWidth = Camera.main.aspect * Camera.main.orthographicSize;
+        float screenHeight = Camera.main.orthographicSize;
+        position.x = Mathf.Clamp(position.x, -screenWidth, screenWidth);
+        position.y = Mathf.Clamp(position.y, -screenHeight, screenHeight);
+        transform.position = position;
+    }
+}
