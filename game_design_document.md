@@ -162,14 +162,37 @@ A small fishing village, expected to have fallen into chaos long ago. Home town 
 
 The year in Erda is divided into four seasons:
 
-1. **Frostwake (Winter):** This season is associated with death and endings. It's a time of cold and darkness, when the world is at its most harsh and unforgiving. Frostwake lasts for 90 days.
+Frostwake (Winter): This season is associated with death and endings. It's a time of cold and darkness, when the world is at its most harsh and unforgiving. Frostwake lasts for 90 days.
 
-2. **Bloomrise (Spring):** This season is associated with rebirth and new beginnings. It's a time when the world starts to thaw and life begins to return. Bloomrise lasts for 92 days.
+Noctilis: Noctilis represents the deep winter nights when the world is enveloped in darkness. It aligns with the cold and harshness of Frostwake.
 
-3. **Suncrest (Summer):** This season is associated with life and vitality. It's a time of warmth and light, when the world is at its most vibrant and full of energy. Suncrest lasts for 94 days.
+Solstice: Solstice represents the turning point of winter, when the sun reaches its lowest point in the sky, signaling the shortest day and the longest night of the year. It marks a time of reflection and hope as the days gradually lengthen.
 
-4. **Harvestmoon (Autumn):** This season is associated with change and transformation. It's a time when the world starts to cool and prepare for the coming winter. Harvestmoon lasts for 89 days.
+Glacialum: Glacialum signifies the peak of winter's coldness, where ice and frost dominate the landscape. It embodies the chilling grip of Frostwake.
 
+Bloomrise (Spring): This season is associated with rebirth and new beginnings. It's a time when the world starts to thaw and life begins to return. Bloomrise lasts for 92 days.
+
+Umbrilis: Umbrilis embodies the early spring when shadows lengthen, and secrets hidden in darkness become more pronounced. It corresponds to the changing atmosphere and introspection as Bloomrise begins.
+
+Aetheril: Aetheril is associated with the ethereal realm and the thinning of the veil between the mortal world and the realm of spirits. It aligns with the idea of rebirth and new beginnings in mid-Bloomrise.
+
+Lunistice: Lunistice symbolizes the month of celestial harmony when the moon's influence is believed to be strongest. It aligns with the awakening of life and enchantment in late Bloomrise.
+
+Suncrest (Summer): This season is associated with life and vitality. It's a time of warmth and light, when the world is at its most vibrant and full of energy. Suncrest lasts for 94 days.
+
+Nycturnis: Nycturnis encompasses the first days of summer when the nights grow shorter, and the moon's presence weaves enchantment throughout the land. It aligns with the vibrant and energetic nature of Suncrest.
+
+Solaris: Solaris signifies the peak of summer when the sun reigns in all its fiery glory, bringing warmth, light, and life to the world. It is a month of vibrant energy and abundant vitality.
+
+Wyrth: Wyrth symbolizes a period of change and transformation when the world experiences a surge of magical energy. It represents the vitality and lively spirit of Suncrest.
+
+Harvestmoon (Autumn): This season is associated with change and transformation. It's a time when the world starts to cool and prepare for the coming winter. Harvestmoon lasts for 89 days.
+
+Zephyril: Zephyril represents the transitional month between summer and autumn when gentle breezes carry ancient whispers and tales of forgotten lore. It captures the sense of change and shifting winds in early Harvestmoon.
+
+Hesperil: Hesperil draws its name from the twilight hour when the sun dips below the horizon, casting a serene ambiance and inviting reflection on the passage of time. It corresponds to the contemplative and fading light of late Harvestmoon.
+
+Emberis: Emberis marks the end of autumn, as the remaining embers of warmth and light begin to wane. It aligns with the transition and preparation for the coming winter in late Harvestmoon.
 Each season is divided into three months, each lasting for 30 or 31 days, with an extra day added to Bloomrise to account for the 0.25 days in a year. This extra day can be a special day of celebration or ritual in the game world.
 
 ## Pantheon of Erda
