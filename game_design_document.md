@@ -168,7 +168,7 @@ The year in Erda is divided into four seasons:
 
    - **Solstice**: Solstice represents the turning point of winter, when the sun reaches its lowest point in the sky, signaling the shortest day and the longest night of the year. It marks a time of                        reflection and hope as the days gradually lengthen.
 
-   - **Glacialum**: Glacialum signifies the peak of winter's coldness, where ice and frost dominate the landscape. It embodies the chilling grip of Frostwake.
+   - **Glacialum**: Glacialum signifies the end of winter's coldness, when the frost begins to recede and the world prepares for the transition into spring. It embodies the lingering grip of Frostwake,                       reminding of the fading ice and frost dominating the landscape.
 
 **Bloomrise** (Spring): This season is associated with rebirth and new beginnings. It's a time when the world starts to thaw and life begins to return. Bloomrise lasts for 92 days.
 
